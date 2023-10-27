@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="sv">
+    {% for _ in range(20) %}
+        <div class="thrd" style="border-radius: 8px; height: 70px">
+            <h1 style="margin-left: 20px;">если я вижу это то все работает</h1>
+        </div>
+        <div style="height: 5px"></div>
+    {% endfor %}
+    </div>
+
+{% endblock content %}
